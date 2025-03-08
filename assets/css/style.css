@@ -11,9 +11,7 @@
   Support: andimpex@gmail.com,
 
   ---------------------------------------------------
-  Developed By: Suraiya Aysha
-  Developer URL: http://ayshatech.com/
-
+ 
   ---------------------------------------------------
 
   --------------------------------------------------
@@ -91,6 +89,19 @@ html {
   height: 100%;
   margin: 0;
 }
+.card-box {
+  min-height: 220px; /* Ensures uniform height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-inner img {
+  width: 100%;      /* Ensures full width */
+  height: 550px;    /* Set a fixed height */
+  object-fit: cover; /* Crop excess parts while keeping aspect ratio */
+}
+
+
 
 body {
   background: #fff none repeat scroll;
